@@ -148,7 +148,17 @@ footer p {
   color: white;
   padding: 3px;
 }
-
+.footer-links a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff4d;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
 /* Midea quarry */
 
 @media (max-width: 767px) {
@@ -241,7 +251,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1060px) {
   body {
     margin: 0px 10px;
   }
@@ -282,6 +292,15 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     margin: 0px;
+  }
+  .collections span {
+    display: block;
+    position: relative;
+    padding: 20px 0px;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    left: 155px;
+    top: 470px;
   }
 }
 @media screen and (min-width: 1023px) and (max-width: 1356px) {

@@ -252,7 +252,7 @@ footer p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1060px) {
-  body {
+  .margin-section {
     margin: 0px 10px;
   }
   .card {
@@ -299,12 +299,12 @@ footer p {
     padding: 20px 0px;
     color: rgba(224, 44, 109, 0.87);
     font-weight: 700;
-    left: 155px;
+    left: 105px;
     top: 470px;
   }
 }
 @media screen and (min-width: 1023px) and (max-width: 1356px) {
-  body {
+  .margin-section {
     margin: 0px 10px;
   }
   .collections {

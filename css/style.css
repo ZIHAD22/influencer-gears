@@ -121,6 +121,7 @@ p {
   background-color: white;
   border-radius: 10px;
   margin: 16px 10px;
+  cursor: pointer;
 }
 .collection-item h2 {
   font-size: 28px;
@@ -171,6 +172,7 @@ p {
   background-color: white;
   padding: 15px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .bye-rep-item {
   text-decoration: none;

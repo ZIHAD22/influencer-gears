@@ -128,7 +128,17 @@ p {
   font-size: 23px;
   margin-top: 10px;
 }
-
+.main-ratting {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.ratting {
+  margin-right: 15px;
+}
+.ratting a {
+  color: goldenrod;
+}
 .item-desc {
   width: 163px;
   font-size: 12px;

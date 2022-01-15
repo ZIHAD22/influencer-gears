@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0px 0px;
   padding: 0;
 }
 body {
@@ -31,6 +31,7 @@ p {
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .right-nav a {
   text-decoration: none;
@@ -117,7 +118,7 @@ p {
   padding: 22px 20px;
   background-color: white;
   border-radius: 10px;
-  margin: 16px 0px;
+  margin: 16px 10px;
 }
 .collection-item h2 {
   font-size: 28px;
@@ -241,11 +242,60 @@ footer p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    margin: 0px 10px;
+  }
   .card {
     display: none;
   }
+  /* nav bar section css */
+  .nav-bar h1 {
+    font-size: 24px;
+  }
+  .right-nav a {
+    padding: 10px;
+  }
+  /* Header section css */
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  .left-child {
+    padding: 0px;
+  }
+  .left-child h1 {
+    font-size: 35px;
+    align-items: center;
+    line-height: 55px;
+  }
+  .left-child p {
+    margin: 25px 0px 25px 0px;
+    line-height: 28px;
+  }
+  /* popular collection */
+  .popular-collection {
+    overflow: hidden;
+  }
+  .collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 0px;
+  }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) and (max-width: 1356px) {
+  .collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1349px) {
+  body {
+    margin: 0px 10px;
+  }
   .card {
     display: none;
   }

@@ -145,7 +145,31 @@ p {
   padding-top: 10px;
   line-height: 20px;
 }
+/* our report section */
 
+.report-top {
+  text-align: center;
+}
+.report-top h4 {
+  color: #0458e9;
+  font-size: 20px;
+}
+.report-top h1 {
+  color: #100739;
+  font-size: 50px;
+  margin: 12px 0px;
+}
+.report-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 90px 0px;
+  justify-items: center;
+}
+.report-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
 /* Footer section css */
 
 footer {
@@ -169,8 +193,12 @@ footer p {
   border-radius: 50%;
   margin: 0px 10px;
 }
+.footer-links {
+  margin-top: 12px;
+}
 /* Midea quarry */
 
+/* mobile responsive */
 @media (max-width: 767px) {
   body {
     margin: 0px;
@@ -259,8 +287,21 @@ footer p {
     left: 110px;
     top: 0px;
   }
+  /* our report section css*/
+  .report-top h1 {
+    font-size: 30px;
+  }
+  .report-bottom {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .report-item {
+    margin: 10px 0px;
+  }
 }
 
+/* tablet responsive */
 @media only screen and (min-width: 768px) and (max-width: 1060px) {
   .margin-section {
     margin: 0px 10px;
@@ -312,7 +353,22 @@ footer p {
     left: 105px;
     top: 470px;
   }
+  /* our report section css */
+  .report-top h1 {
+    font-size: 40px;
+  }
+  .report-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 70px 0px;
+  }
+  .report-item {
+    margin: 10px 0px;
+  }
 }
+
+/* other */
 @media screen and (min-width: 1023px) and (max-width: 1356px) {
   .margin-section {
     margin: 0px 10px;

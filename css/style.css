@@ -70,6 +70,10 @@ p {
   border-radius: 41px;
   padding: 10px 24px 10px 24px;
   font-weight: 900;
+  transition: ease-out 0.3s;
+}
+a.header-btn:hover {
+  box-shadow: inset 175px 0px 0px 0px black;
 }
 .left-child .fas {
   padding: 0px 15px;

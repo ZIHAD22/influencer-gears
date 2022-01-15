@@ -227,13 +227,8 @@ footer p {
   }
   /* nav bar  */
   .nav-bar {
-    display: block;
-  }
-  .nav-bar > h1 {
     display: flex;
-    justify-content: space-between;
-    font-size: 28px;
-    padding: 0px 35px;
+    margin: 0px 20px;
   }
   .right-nav {
     display: none;
@@ -327,6 +322,9 @@ footer p {
     display: none;
   }
   /* nav bar section css */
+  .nav-section {
+    margin-top: 30px;
+  }
   .nav-bar h1 {
     font-size: 24px;
   }

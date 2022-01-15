@@ -64,10 +64,12 @@ p {
 }
 .left-child a {
   text-decoration: none;
-  display: inline-block;
+  display: block;
   color: white;
+  width: 180px;
+  text-align: center;
   background-color: #e02c6d;
-  border-radius: 41px;
+  border-radius: 40px;
   padding: 10px 24px 10px 24px;
   font-weight: 900;
   transition: ease-out 0.3s;
@@ -265,7 +267,6 @@ footer p {
   }
   .left-child a {
     text-align: center;
-    display: list-item;
     margin: 0px 60px;
     padding: 18px 40px;
   }

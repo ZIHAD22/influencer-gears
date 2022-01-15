@@ -4,20 +4,224 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  color: #3a3a3a;
+  background-color: #aaaaaa1c;
+}
+
+/* Common css */
+section,
+header {
   max-width: 1450px;
   margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
+
+a,
+p {
+  font-size: 16px;
+  color: #3a3a3a;
+}
+.section-child {
+  width: 80%;
+  margin-right: 10px;
+}
+
+/* ------------Nav bar css -------------*/
 .nav-bar {
   display: flex;
   justify-content: space-between;
 }
 .right-nav a {
   text-decoration: none;
-  color: black;
+
   padding: 10px 17px;
-  font-size: 16px;
 }
 .nav-section {
   margin-top: 35px;
   font-size: 26px;
+}
+
+/* Header section css */
+
+.header {
+  display: flex;
+}
+.left-child {
+  padding-top: 90px;
+}
+.left-child h1 {
+  font-size: 55px;
+  align-items: center;
+  line-height: 75px;
+}
+.left-child p {
+  margin: 25px 155px 25px 0px;
+  line-height: 28px;
+}
+.left-child a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #e02c6d;
+  border-radius: 41px;
+  padding: 10px 24px 10px 24px;
+  font-weight: 900;
+}
+
+.right-child img {
+  width: 78%;
+  overflow: hidden;
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  padding-bottom: 34px;
+}
+
+/* partner section css */
+
+.all-partner {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding: 45px;
+  border-radius: 80px;
+}
+
+/* Popular Collection section css */
+
+.popular-collection h1 {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 0px 163px;
+}
+.collections span {
+  display: block;
+  position: relative;
+  padding: 20px 0px;
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: 700;
+  left: 226px;
+  top: 105px;
+}
+.collection-item {
+  padding: 22px 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 16px 0px;
+}
+.collection-item h2 {
+  font-size: 28px;
+  margin-top: 15px;
+}
+.collection-item h3 {
+  font-size: 23px;
+  margin-top: 10px;
+}
+
+.item-desc {
+  width: 163px;
+  font-size: 12px;
+  padding-top: 10px;
+  line-height: 20px;
+}
+
+/* Footer section css */
+
+footer {
+  background-color: #11021b;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+footer p {
+  color: white;
+  padding: 3px;
+}
+
+/* Midea quarry */
+
+@media (max-width: 488px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* nav bar  */
+  .nav-bar {
+    display: block;
+  }
+  .nav-bar h1 {
+    text-align: center;
+    font-size: 28px;
+  }
+  .right-nav {
+    display: none;
+  }
+  /* header section */
+  .header {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .left-child {
+    padding-top: 0px;
+  }
+  .left-child h1 {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .right-child img {
+    width: 100%;
+  }
+  .section-child {
+    width: 100%;
+  }
+  .left-child p {
+    text-align: center;
+    margin: 6px;
+  }
+  .left-child a {
+    text-align: center;
+    display: list-item;
+    margin: 0px 60px;
+    padding: 18px 40px;
+  }
+  /* partner section */
+  .all-partner {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    padding: 0px;
+  }
+  .all-partner img {
+    margin: 25px 1px;
+    width: 25%;
+  }
+
+  /* popular collection */
+  .popular-collection {
+    overflow: hidden;
+  }
+  .popular-collection h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+  .collections {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+    padding: 0px;
+  }
 }

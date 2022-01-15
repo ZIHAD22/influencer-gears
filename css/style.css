@@ -16,7 +16,9 @@ header {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
+.pink-color{
+  color: rgba(224, 44, 109, 0.87);
+}
 a,
 p {
   font-size: 16px;

@@ -68,7 +68,9 @@ p {
   padding: 10px 24px 10px 24px;
   font-weight: 900;
 }
-
+.left-child .fas {
+  padding: 0px 15px;
+}
 .right-child img {
   width: 78%;
   overflow: hidden;
@@ -109,8 +111,7 @@ p {
   padding: 20px 0px;
   color: rgba(224, 44, 109, 0.87);
   font-weight: 700;
-  left: 226px;
-  top: 105px;
+  left: 780px;
 }
 .collection-item {
   padding: 22px 20px;
@@ -149,7 +150,7 @@ footer p {
 
 /* Midea quarry */
 
-@media (max-width: 488px) {
+@media (max-width: 767px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -223,5 +224,14 @@ footer p {
     grid-template-columns: repeat(1, 1fr);
     margin: 0px;
     padding: 0px;
+  }
+  .collections span {
+    left: 110px;
+    top: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023) {
+  .nav-bar h1 {
   }
 }

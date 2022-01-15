@@ -16,7 +16,7 @@ header {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.pink-color{
+.pink-color {
   color: rgba(224, 44, 109, 0.87);
 }
 a,
@@ -171,6 +171,15 @@ p {
   background-color: white;
   padding: 15px;
   border-radius: 10px;
+}
+.bye-rep-item {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 18px;
+  background-color: rgba(224, 44, 109, 0.87);
+  margin-top: 12px;
+  color: white;
+  border-radius: 25px;
 }
 /* Footer section css */
 
